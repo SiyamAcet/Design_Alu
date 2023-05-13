@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/acets/project_9/project_9.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/acets/project_9/project_9.srcs/sim_1/new/ALU_Test.sv,1683635593,systemVerilog,,,,ALU_Test,,uvm,,,,,,
+C:/Users/acets/project_9/project_9.srcs/sources_1/new/ALU.sv,1683837824,systemVerilog,,C:/Users/acets/project_9/project_9.srcs/sources_1/new/MUX2.sv,,ALU,,uvm,,,,,,
+C:/Users/acets/project_9/project_9.srcs/sources_1/new/MUX2.sv,1683615156,systemVerilog,,C:/Users/acets/project_9/project_9.srcs/sources_1/new/MUX4.sv,,MUX2,,uvm,,,,,,
+C:/Users/acets/project_9/project_9.srcs/sources_1/new/MUX4.sv,1683615222,systemVerilog,,C:/Users/acets/project_9/project_9.srcs/sources_1/new/NbitFulladder.sv,,MUX4,,uvm,,,,,,
+C:/Users/acets/project_9/project_9.srcs/sources_1/new/NbitFulladder.sv,1683615345,systemVerilog,,C:/Users/acets/project_9/project_9.srcs/sources_1/new/fulladder.sv,,NbitFulladder,,uvm,,,,,,
+C:/Users/acets/project_9/project_9.srcs/sources_1/new/fulladder.sv,1683615290,systemVerilog,,C:/Users/acets/project_9/project_9.srcs/sim_1/new/ALU_Test.sv,,fulladder,,uvm,,,,,,
