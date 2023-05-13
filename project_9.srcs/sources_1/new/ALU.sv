@@ -18,9 +18,9 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-// Siyam Acet Ceren Alya??z
+// Siyam Acet
 
-module ALU(input logic [3:0] a, b,
+module ALU(input logic [3:0] a, b, 
     input logic [1:0] control,
     output logic [3:0] alu_out,
     output logic carry_out,
@@ -40,9 +40,10 @@ logic [3:0] mux2_out;
 	assign and_out = a & b;
 	assign or_out = a | b;
 
-	MUX4 mux4_out(sum, sum, and_out, or_out, control, alu_out );
-
-	assign zero = ~alu_out[0] & ~alu_out[1] & ~alu_out[2] & ~alu_out[3];
+	MUX4 mux4_out(sum, sum, and_out, or_out, control, alu_out ); // selection multiplexer
+	
+        // flags
+	assign zero = ~alu_out[0] & ~alu_out[1] & ~alu_out[2] & ~alu_out[3]; 
 	assign negative = alu_out[3];
 	assign carry_out = cout & ~control[1];
 	assign overflow = ~(control[0] ^ a[3] ^ b[3]) & (a[3] ^ sum[3]) & (~control[1]);
